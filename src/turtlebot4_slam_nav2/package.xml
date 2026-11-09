@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<package format="3">
+  <name>turtlebot4_slam_nav2</name><version>0.2.0</version>
+  <description>TurtleBot 4 simulation, map localization, Nav2 waypoint navigation and YOLO camera detection.</description>
+  <maintainer email="khoa@example.com">Lục Văn Khoa</maintainer><license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>launch</exec_depend><exec_depend>launch_ros</exec_depend>
+  <exec_depend>rclpy</exec_depend><exec_depend>python3-opencv</exec_depend><exec_depend>python3-numpy</exec_depend><exec_depend>geometry_msgs</exec_depend><exec_depend>sensor_msgs</exec_depend><exec_depend>cv_bridge</exec_depend><exec_depend>nav2_simple_commander</exec_depend>
+  <exec_depend>turtlebot4_ignition_bringup</exec_depend><exec_depend>turtlebot4_navigation</exec_depend><exec_depend>turtlebot4_viz</exec_depend><exec_depend>nav2_map_server</exec_depend><exec_depend>nav2_bringup</exec_depend><exec_depend>ros_gz_bridge</exec_depend>
+  <export><build_type>ament_python</build_type></export>
+</package>
+
