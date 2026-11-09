@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "frame": "map",
+  "method": "manual semantic seeds + 4-connected geodesic Voronoi of free cells with obstacle clearance",
+  "map_yaml": "navigation_map.yaml",
+  "labels_image": "region_labels.png",
+  "min_clearance_m": 0.28,
+  "map_sha256": "0cb9284971db16d0367ffdbf2cefbbdf003cf6880334afa5193bfb0a58ad6930",
+  "known_obstacles": [
+    {
+      "name": "demo_chair",
+      "bounds": [
+        -2.3,
+        3.2,
+        -1.7,
+        3.8
+      ]
+    }
+  ],
+  "coordinate_convention": "pixel centers; image y down, ROS map y up; origin yaw applied",
+  "regions": [
+    {
+      "id": "A",
+      "name": "Phòng học",
+      "aliases": [
+        "khu vực A",
+        "khu A",
+        "phòng A",
+        "phòng học",
+        "a"
+      ],
+      "index": 1,
+      "area_m2": 131.9875,
+      "centroid_world": [
+        1.6280125958897642,
+        -2.0109806799886343
+      ],
+      "goal": {
+        "x": -3.5,
+        "y": 0.5,
+        "yaw": 1.43,
+        "clearance_m": 1.35
+      }
+    },
+    {
+      "id": "B",
+      "name": "Phòng thí nghiệm",
+      "aliases": [
+        "khu vực B",
+        "khu B",
+        "phòng B",
+        "phòng thí nghiệm",
+        "phòng lab",
+        "bê",
+        "khu vực bê",
+        "phòng bê"
+      ],
+      "index": 2,
+      "area_m2": 6.63,
+      "centroid_world": [
+        -3.4573152337858213,
+        2.5497926093514334
+      ],
+      "goal": {
+        "x": -4.0,
+        "y": 2.5,
+        "yaw": 1.82,
+        "clearance_m": 1.006
+      }
+    },
+    {
+      "id": "C",
+      "name": "Hành lang",
+      "aliases": [
+        "khu vực C",
+        "khu C",
+        "phòng C",
+        "hành lang",
+        "hành lang C",
+        "cê",
+        "xê",
+        "khu vực xê",
+        "khu vực cê"
+      ],
+      "index": 3,
+      "area_m2": 34.3375,
+      "centroid_world": [
+        -5.312520931925737,
+        6.825040043684018
+      ],
+      "goal": {
+        "x": -3.0,
+        "y": 4.5,
+        "yaw": 1.107,
+        "clearance_m": 1.061
+      }
+    }
+  ],
+  "segmented_cells": 69182,
+  "free_cells": 103615,
+  "unknown_or_occupied_assigned": 0
+}
