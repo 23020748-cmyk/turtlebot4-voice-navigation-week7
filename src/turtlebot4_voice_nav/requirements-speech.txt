@@ -1,0 +1,3 @@
+pywhispercpp==1.5.1
+# Optional baseline backend: vosk==0.3.45
+# Live microphone capture uses system FFmpeg/PulseAudio; no PortAudio required.
