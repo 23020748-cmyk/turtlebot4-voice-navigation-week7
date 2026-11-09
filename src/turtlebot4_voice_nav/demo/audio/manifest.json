@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01_area_a",
+    "expected_text": "Đi đến khu vực A.",
+    "file": "01_area_a.wav",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "voice": "vi_VN-vais1000-medium",
+    "license": "Piper VAIS-1000 voice: see original MODEL_CARD; attribution CC BY 4.0"
+  },
+  {
+    "id": "02_lab",
+    "expected_text": "Đi đến phòng thí nghiệm.",
+    "file": "02_lab.wav",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "voice": "vi_VN-vais1000-medium",
+    "license": "Piper VAIS-1000 voice: see original MODEL_CARD; attribution CC BY 4.0"
+  },
+  {
+    "id": "03_corridor",
+    "expected_text": "Di chuyển đến khu vực C.",
+    "file": "03_corridor.wav",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "voice": "vi_VN-vais1000-medium",
+    "license": "Piper VAIS-1000 voice: see original MODEL_CARD; attribution CC BY 4.0"
+  },
+  {
+    "id": "04_a_to_b",
+    "expected_text": "Di chuyển từ khu vực A đến khu vực B.",
+    "file": "04_a_to_b.wav",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "voice": "vi_VN-vais1000-medium",
+    "license": "Piper VAIS-1000 voice: see original MODEL_CARD; attribution CC BY 4.0"
+  },
+  {
+    "id": "05_unknown",
+    "expected_text": "Đi đến khu vực Z.",
+    "file": "05_unknown.wav",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "voice": "vi_VN-vais1000-medium",
+    "license": "Piper VAIS-1000 voice: see original MODEL_CARD; attribution CC BY 4.0"
+  }
+]
