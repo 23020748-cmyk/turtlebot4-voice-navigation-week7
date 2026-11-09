@@ -1,0 +1,22 @@
+# Manually named functional zones on the previously saved SLAM map.
+# Coordinates are in ROS frame map (metres), NOT image pixels.
+min_clearance_m: 0.28
+known_obstacles:
+  - name: demo_chair
+    bounds: [-2.3, 3.2, -1.7, 3.8]
+regions:
+  - id: A
+    name: Phòng học
+    aliases: [khu vực A, khu A, phòng A, phòng học, a]
+    seed: [-3.5, 0.5]
+    yaw: 1.43
+  - id: B
+    name: Phòng thí nghiệm
+    aliases: [khu vực B, khu B, phòng B, phòng thí nghiệm, phòng lab, bê, khu vực bê, phòng bê]
+    seed: [-4.0, 2.5]
+    yaw: 1.82
+  - id: C
+    name: Hành lang
+    aliases: [khu vực C, khu C, phòng C, hành lang, hành lang C, cê, xê, khu vực xê, khu vực cê]
+    seed: [-3.0, 4.5]
+    yaw: 1.107
