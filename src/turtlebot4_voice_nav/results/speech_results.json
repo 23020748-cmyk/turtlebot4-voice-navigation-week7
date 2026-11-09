@@ -1,0 +1,83 @@
+[
+  {
+    "id": "01_area_a",
+    "expected_text": "Đi đến khu vực A.",
+    "transcript": "Đi đến khu vực á!",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "command_id": "08099439-33c0-4d05-a0cd-fd4d0d817693",
+    "expected_route": [
+      "A"
+    ],
+    "actual_route": [
+      "A"
+    ],
+    "semantic_passed": true,
+    "processing_seconds": 11.221742276000441,
+    "backend": "whisper.cpp",
+    "confidence_note": "No calibrated confidence supplied by this wrapper"
+  },
+  {
+    "id": "02_lab",
+    "expected_text": "Đi đến phòng thí nghiệm.",
+    "transcript": "Để đến phòng thí nghiệm.",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "command_id": "703c57d5-af9b-4083-85f5-7052ff407005",
+    "expected_route": [
+      "B"
+    ],
+    "actual_route": [
+      "B"
+    ],
+    "semantic_passed": true,
+    "processing_seconds": 10.16379494099965,
+    "backend": "whisper.cpp",
+    "confidence_note": "No calibrated confidence supplied by this wrapper"
+  },
+  {
+    "id": "03_corridor",
+    "expected_text": "Di chuyển đến khu vực C.",
+    "transcript": "phía chuyện đến cua vực xe.",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "command_id": "f5f64a25-17ae-47b9-93ee-8921ee667799",
+    "expected_route": [
+      "C"
+    ],
+    "actual_route": null,
+    "semantic_passed": false,
+    "processing_seconds": 4.493335897999714,
+    "backend": "whisper.cpp",
+    "confidence_note": "No calibrated confidence supplied by this wrapper"
+  },
+  {
+    "id": "04_a_to_b",
+    "expected_text": "Di chuyển từ khu vực A đến khu vực B.",
+    "transcript": "Ví chuyển từ khu vực A đến khu vực B.",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "command_id": "b0f38de0-520a-425b-a3f4-66f03e9179de",
+    "expected_route": [
+      "A",
+      "B"
+    ],
+    "actual_route": [
+      "A",
+      "B"
+    ],
+    "semantic_passed": true,
+    "processing_seconds": 5.9400515239995,
+    "backend": "whisper.cpp",
+    "confidence_note": "No calibrated confidence supplied by this wrapper"
+  },
+  {
+    "id": "05_unknown",
+    "expected_text": "Đi đến khu vực Z.",
+    "transcript": "Đi đến cuvâng sẻ.",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "command_id": "9ccf577c-a1f6-48fe-b37a-4d16de4f7d09",
+    "expected_route": null,
+    "actual_route": null,
+    "semantic_passed": true,
+    "processing_seconds": 10.858542612000747,
+    "backend": "whisper.cpp",
+    "confidence_note": "No calibrated confidence supplied by this wrapper"
+  }
+]

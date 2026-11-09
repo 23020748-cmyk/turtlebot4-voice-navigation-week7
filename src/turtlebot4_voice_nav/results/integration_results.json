@@ -1,0 +1,133 @@
+[
+  {
+    "id": "01_area_a",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "expected_text": "Đi đến khu vực A.",
+    "transcript": "Đi đến khu vực á!",
+    "expected_route": [
+      "A"
+    ],
+    "parsed_route": [
+      "A"
+    ],
+    "verified_goals": [
+      "A"
+    ],
+    "final_event": "ROUTE_SUCCEEDED",
+    "passed": true,
+    "audio_start_monotonic": 11721.787739017,
+    "elapsed_seconds": 53.56467386999975,
+    "asr_metrics": {
+      "processing_seconds": 11.221742276000441,
+      "backend": "whisper.cpp",
+      "confidence_note": "No calibrated confidence supplied by this wrapper"
+    },
+    "command_id": "08099439-33c0-4d05-a0cd-fd4d0d817693"
+  },
+  {
+    "id": "02_lab",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "expected_text": "Đi đến phòng thí nghiệm.",
+    "transcript": "Để đến phòng thí nghiệm.",
+    "expected_route": [
+      "B"
+    ],
+    "parsed_route": [
+      "B"
+    ],
+    "verified_goals": [
+      "B"
+    ],
+    "final_event": "ROUTE_SUCCEEDED",
+    "passed": true,
+    "audio_start_monotonic": 11776.435225616,
+    "elapsed_seconds": 26.513165985999876,
+    "asr_metrics": {
+      "processing_seconds": 10.16379494099965,
+      "backend": "whisper.cpp",
+      "confidence_note": "No calibrated confidence supplied by this wrapper"
+    },
+    "command_id": "703c57d5-af9b-4083-85f5-7052ff407005"
+  },
+  {
+    "id": "03_corridor",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "expected_text": "Di chuyển đến khu vực C.",
+    "transcript": "phía chuyện đến cua vực xe.",
+    "expected_route": [
+      "C"
+    ],
+    "parsed_route": null,
+    "verified_goals": [],
+    "final_event": "COMMAND_REJECTED",
+    "passed": false,
+    "audio_start_monotonic": 11803.966290506,
+    "elapsed_seconds": 4.502976953999678,
+    "asr_metrics": {
+      "processing_seconds": 4.493335897999714,
+      "backend": "whisper.cpp",
+      "confidence_note": "No calibrated confidence supplied by this wrapper"
+    },
+    "command_id": "f5f64a25-17ae-47b9-93ee-8921ee667799"
+  },
+  {
+    "id": "C_text_goal_validation",
+    "source": "TEXT_NAVIGATION_VALIDATION",
+    "transcript": "Đi đến hành lang",
+    "expected_route": [
+      "C"
+    ],
+    "verified_goals": [
+      "C"
+    ],
+    "passed": true,
+    "command_id": "43bb0b21-1822-4461-a666-5605f8915870"
+  },
+  {
+    "id": "04_a_to_b",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "expected_text": "Di chuyển từ khu vực A đến khu vực B.",
+    "transcript": "Ví chuyển từ khu vực A đến khu vực B.",
+    "expected_route": [
+      "A",
+      "B"
+    ],
+    "parsed_route": [
+      "A",
+      "B"
+    ],
+    "verified_goals": [
+      "A",
+      "B"
+    ],
+    "final_event": "ROUTE_SUCCEEDED",
+    "passed": true,
+    "audio_start_monotonic": 11828.685300019,
+    "elapsed_seconds": 78.33106275299906,
+    "asr_metrics": {
+      "processing_seconds": 5.9400515239995,
+      "backend": "whisper.cpp",
+      "confidence_note": "No calibrated confidence supplied by this wrapper"
+    },
+    "command_id": "b0f38de0-520a-425b-a3f4-66f03e9179de"
+  },
+  {
+    "id": "05_unknown",
+    "source": "SYNTHETIC_TTS_PIPER",
+    "expected_text": "Đi đến khu vực Z.",
+    "transcript": "Đi đến cuvâng sẻ.",
+    "expected_route": null,
+    "parsed_route": null,
+    "verified_goals": [],
+    "final_event": "COMMAND_REJECTED",
+    "passed": true,
+    "audio_start_monotonic": 11908.092837421,
+    "elapsed_seconds": 10.93763556399972,
+    "asr_metrics": {
+      "processing_seconds": 10.858542612000747,
+      "backend": "whisper.cpp",
+      "confidence_note": "No calibrated confidence supplied by this wrapper"
+    },
+    "command_id": "9ccf577c-a1f6-48fe-b37a-4d16de4f7d09"
+  }
+]

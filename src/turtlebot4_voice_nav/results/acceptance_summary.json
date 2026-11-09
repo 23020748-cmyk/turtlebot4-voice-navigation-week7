@@ -1,0 +1,15 @@
+{
+  "labelled_regions": 3,
+  "completed_voice_commands": [
+    "01_area_a",
+    "02_lab",
+    "04_a_to_b"
+  ],
+  "verified_navigation_goals": 5,
+  "all_navigation_goals_verified": true,
+  "unknown_voice_command_rejected": true,
+  "valid_voice_semantic_accuracy": 0.75,
+  "human_speech_tested": false,
+  "synthetic_voice": "Piper vi_VN-vais1000-medium",
+  "limitation": "Clip C is misrecognized and rejected. Goal C is separately validated through labelled text input."
+}
